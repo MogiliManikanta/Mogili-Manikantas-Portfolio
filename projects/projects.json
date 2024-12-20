@@ -15,20 +15,11 @@
     "image": "E-commerce",
     "category": "mern",
     "links": {
-      "view": "https://artefact.cyclic.app/",
-      "code": "https://github.com/MogiliManikanta/E-Commerce-Website/tree/master"
+      "view": "https://ecommerce-frontend-lime-nine.vercel.app/",
+      "code": "https://github.com/MogiliManikanta/EcommerceFrontend"
     }
   },
-  {
-    "name": "Eternal Match",
-    "desc": "• We Spearheaded the creation of a feature-rich matrimonial web app, complete with a user-friendly UI and interactive landing page",
-    "image": "Eternal Match",
-    "category": "mern",
-    "links": {
-      "view": "https://jodiexpress2.web.app/",
-      "code": "https://github.com/MogiliManikanta/Eternal-Match/tree/master"
-    }
-  },
+ 
   {
     "name": "Mobile-News-App",
     "desc": "We developed a  news app enabling users to access online news across various categories such as business, sports, entertainment, and science. ",
