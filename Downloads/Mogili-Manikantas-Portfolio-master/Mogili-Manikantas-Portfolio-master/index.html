@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="description" content="Welcome to Manikanta's Portfolio. Full-Stack Web Developer and Android App Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | Mogili Manikanta</title>
+</head>
+<style> 
+  p { 
+    font-size: 1.5rem;
+  margin-top: 1.5rem;
+  font-family: "Nunito";
+  font-weight: 600;
+  text-transform: none; 
+  } 
+
+  .container { 
+      background-color: rgb(192, 192, 192); 
+      width: 80%; 
+      border-radius: 15px; 
+  } 
+
+  .skill { 
+      background-color: rgb(116, 194, 92); 
+      color: white; 
+      padding: 1%; 
+      text-align: right; 
+      font-size: 20px; 
+      border-radius: 15px; 
+  } 
+
+  .mern { 
+      width: 90%; 
+  } 
+  .ml { 
+      width: 80%; 
+  }
+
+  .ll { 
+      width: 90%; 
+  } 
+  .Dev { 
+      width: 85%; 
+  } 
+  .sw { 
+      width: 75%; 
+  } 
+</style> 
+<body oncontextmenu="return false">
+
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+<!-- navbar starts -->
+<header>
+        <a href="/" class="logo">
+          <!-- <i class="fab fa-node-js"></i> -->
+          Mogili Manikanta</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills1">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#experience1">Certificates</a></li>
+            <li><a href="#profile">Coding Profiles</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+
+<!-- hero section starts -->
+<section class="home" id="home" style="font-size: small;">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm Manikanta <span>Mogili</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <div id="socials-container">
+            <img
+                src="./assets/Linkedins.png"
+                alt="My LinkedIn profile"
+                class="icon"
+                onmouseover="showUrl(this, 'https://www.linkedin.com/in/mogilimanikanta/')"
+                onclick="window.open('https://www.linkedin.com/in/mogilimanikanta/')"
+            />
+            <img
+                src="./assets/codechef.jpg"
+                alt="My codechef profile"
+                class="icon"
+                onmouseover="showUrl(this, 'https://www.codechef.com/users/v20481a5432')"
+                onclick="window.open('https://www.codechef.com/users/v20481a5432')"
+            />
+            <img
+                src="./assets/codeforces.png"
+                alt="My codeforces profile"
+                class="icon"
+                onmouseover="showUrl(this, 'https://codeforces.com/profile/v20481A5432')"
+                onclick="window.open('https://codeforces.com/profile/v20481A5432')"
+            />
+            <img
+                src="./assets/leetcode.png"
+                alt="My leetcode profile"
+                class="icon"
+                onmouseover="showUrl(this, 'https://leetcode.com/20481A5432/')"
+                onclick="window.open('https://leetcode.com/20481A5432/')"
+            />
+            <img
+                src="./assets/Gfgo.svg"
+                alt="My Geeks For Geeks profile"
+                class="icon"
+                onmouseover="showUrl(this, 'https://www.geeksforgeeks.org/user/mogilimanikanta5555/')"
+                onclick="window.open('https://www.geeksforgeeks.org/user/mogilimanikanta5555/')"
+            />
+            <img
+                src="./assets/github.png"
+                alt="My GitHub profile"
+                class="icon"
+                onmouseover="showUrl(this, 'https://github.com/MogiliManikanta')"
+                onclick="window.open('https://github.com/MogiliManikanta')"
+            />
+          </div>
+        </ul>
+      </div>
+    </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+</div>
+</section>
+<!-- hero section ends -->
+
+
+<!-- about section starts -->
+
+<!-- about section starts -->
+<section class="about" id="about" style="background-color:whitesmoke;">
+  <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+  
+  <div class="row">
+
+  <div class="image" ">
+      <img ="false" class="tilt" src="Me(1)(1).png" alt="">
+      <h1 style="font-size: x-large;font-weight: bold;">Skills</h1>
+      <!-- <h1>My Skills</h1>  -->
+  <p>MERN-Stack(MongoDB, Express, React, and Node)</p> 
+  <div class="container"> 
+      <div class="skill mern">90%</div> 
+  </div> 
+
+  <p>Programming - Languages : (C, Python, Java, C++)</p> 
+  <div class="container"> 
+      <div class="skill ll">90%</div> 
+  </div> 
+  <p>Machine Learning</p> 
+  <div class="container"> 
+      <div class="skill ml">80%</div> 
+  </div> 
+
+  <p>DevOps(Aws, kubernetes, Microservices, Docker)</p> 
+  <div class="container"> 
+      <div class="skill Dev">85%</div> 
+  </div> 
+  <p>Spring Framework</p> 
+  <div class="container"> 
+      <div class="skill sw">75%</div> 
+  </div> 
+
+  <!-- <p>PHP</p> 
+  <div class="container"> 
+      <div class="skill php">60%</div> 
+  </div>  -->
+              
+  </div>
+  <div class="content">
+      <h3>I'm Manikanta Mogili</h3>
+      <span class="tag">Full Stack Developer</span>
+      <p>I'm a highly skilled and motivated Full-Stack Developer based in Hyderabad, India, with a B.Tech in Artificial Intelligence & Data Science.
+        I excel in Java, C/C++, Python, Golang, JavaScript, Git, and more. My passion for software development
+        is evident in my diverse skill set and hands-on experience in enhancing user experiences, ensuring data integrity, and conducting 
+        comprehensive code reviews. With expertise in the MERN Stack, I specialize in building dynamic WebApps and Websites, leveraging my 
+        proficiency in optimizing processes and improving efficiency. <p style="font-weight: bold; font-size: large;">Currently seeking opportunities to contribute to innovative projects
+         and further enhance my skills.</p></p>
+      <div class="box-container">
+          <!-- <div class="box">
+            <p><span> age: </span> 20</p>
+            <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
+          </div> -->
+          <div class="box">
+            <p><span> email  : </span> mogilimanikanta5555@gmail.com</p>
+            <p><span> place  : </span> Hyderabad, India - 500084</p>
+            <p><span style="font-weight: bold;">Profile:</span> <span style="font-weight: bold; color: black;">Full-Stack Developer & Software Development</span></p>
+<!-- <p><span style="font-weight: bold;">Domain:</span> <span style="font-weight: bold; color: black;">Retail, Ecommerce, BFSI & Digital Marketing</span></p> -->
+<p><span style="font-weight: bold;">Education:</span> <span style="font-weight: bold; color: black;">Bachelor Of Engineering</span></p>
+<p><span style="font-weight: bold;">Field Of Study:</span> <span style="font-weight: bold; color: black;">Artificial Intelligence & Data Science</span></p>
+<!-- <p><span style="font-weight: bold;">Education:</span> <span style="font-weight: bold; color: black;">Bachelor Of Engineering</span></p> -->
+<p><span style="font-weight: bold;">Language:</span> <span style="font-weight: bold; color: black;">English, Hindi, Telugu</span></p>
+<!-- <p><span style="font-weight: bold;">BI Tools:</span> <span style="font-weight: bold; color: black;">Microsoft Power BI, Looker & Tableau</span></p> -->
+<p><span style="font-weight: bold;">Other Skills:</span> <span style="font-weight: bold; color: black;">Aws, Docker, kubernetes, Microservices</span></p>
+<p><span style="font-weight: bold;">Interest:</span> <span style="font-weight: bold; color: black;">Traveling, Improving Problem-Solving-Skills, Teaching</span></p>
+          </div>
+        </div>     
+      <div class="resumebtn">
+          <a href="Mogili_Manikanta.pdf" target="_blank" class="btn"><span>Resume</span>
+              <i class="fas fa-chevron-right"></i>
+          </a>
+      </div>
+  </div>
+  </div>
+</section>
+<section id="skills1">
+  <p class="section__text__p1" id="skills1">Explore My</p>
+  <h1 class="title"> Skills <img src="./assets/skills-logo.png" alt="skill logo" class="icon" />
+  </h1>
+  <div class="skills-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="skills-sub-title">Languages & Frameworks</h2>
+        <div class="article-container">
+          <article>
+            <img src="./assets/checkmark.png" alt="checkmark icon" class="icon" />
+            <div class="single-skill">
+              <h3>Java</h3>
+            </div>
+          </article>
+<!--           <article>
+            <img src="./assets/checkmark.png" alt="checkmark icon" class="icon" />
+            <div class="single-skill">
+              <h3>PHP</h3> 
+              </div>
+          </article> -->
+          <article><img src="./assets/checkmark.png" alt="checkmark icon" class="icon" /> <div class="single-skill">
+              <h3>C/C++</h3>
+              <!-- <p>Experienced</p> -->
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="checkmark icon" class="icon" />
+            <div class="single-skill">
+              <h3>Python</h3>
+              <!-- <p>Average</p> -->
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="checkmark icon" class="icon" />
+            <div class="single-skill">
+              <h3>Golang</h3>
+              <!-- <p>Average</p> -->
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="checkmark icon" class="icon" />
+            <div class="single-skill">
+              <h3>JavaScript</h3>
+              <!-- <p>Experienced</p> -->
+            </div>
+          </article>
+        </div>
+      </div>
+      <br>
+      <div class="details-container">
+        <h2 class="skills-sub-title">Tools & Functional Skills</h2>
+        <div class="article-container">
+          <article>
+            <img src="./assets/checkmark.png" alt="checkmark icon" class="icon" />
+            <div class="single-skill">
+              <h3>Object Oriented</h3>
+              <!-- <p>Experienced</p> -->
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="checkmark icon" class="icon" />
+            <div class="single-skill">
+              <h3>Algorithms</h3>
+              <!-- <p>Experienced</p> -->
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="checkmark icon" class="icon" />
+            <div class="single-skill">
+              <h3>SDLC</h3>
+              <!-- <p>Experienced</p> -->
+            </div>
+          </article>
+          <article>
+            <img src="./assets/checkmark.png" alt="checkmark icon" class="icon" />
+             <div class="single-skill"> 
+             <h3>Test Driven Development</h3> 
+             <!-- <p>Experienced</p>  -->
+             </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Pair Programming</h3>
+             <!-- <p>Experienced</p>  -->
+        </div>
+         </article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Git</h3>
+         <!-- <p>Experienced</p>  -->
+         </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>RDBMS</h3>
+              <!-- <p>Average</p> -->
+            </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Linux</h3>
+              <!-- <p>Average</p> -->
+            </div></article></div></div><br><div class="details-container"><h2 class="skills-sub-title">Full Stack Development & MERN Stack Development & BackEnd Development</h2><div class="article-container"><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>HTML 5</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Css3</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>BootStrap</h3>
+              <!-- <p>Average</p> -->
+            </div></article>
+								 <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>JSON</h3>
+              <!-- !-- <p>Average</p> -- -->
+            </div></article>
+         <article> 
+         <img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>React Js</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>JavaScript</h3>
+         <!-- <p>Experienced</p>  -->
+         </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Node Js</h3> 
+         <!-- <p>Average</p>  -->
+         </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Mongo DB</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill">
+         <h3>Express Js</h3>
+         <!-- <p>Average</p> -->
+        </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Java Server Pages(JSP)</h3>
+              <!-- <p>Average</p> -->
+            </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>JQuery</h3>
+         <!-- <p>Experienced</p>  -->
+         </div></article> 
+         <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>AJAX</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article>
+         <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>MySql</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article></div></div>
+         <br><div class="details-container"><h2 class="skills-sub-title">Java BackEnd Development & Spring Frameworks</h2><div class="article-container"><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Spring Core</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article><article>
+         <img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Spring MVC</h3>
+              <!-- <p>Average</p> -->
+            </div></article>
+         <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Spring JDBC</h3>
+              <!-- !-- <p>Experienced</p> -->
+            </div></article>
+         <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Spring Boot Fundamentals</h3>
+              <!-- !-- <p>Average</p> -- -->
+            </div></article>
+         <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Spring Data JPA</h3>
+              <!-- <p>Average</p> -->
+            </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Spring REST</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /> 
+         <div class="single-skill"><h3>Spring AOP</h3>
+          <!-- <p>Experienced</p> -->
+          </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+         /> 
+         <div class="single-skill"><h3>Spring Security</h3>
+          <!-- <p>Experienced</p> -->
+        </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            />
+         <div class="single-skill"><h3>Spring Test</h3>
+          <!-- <p>Experienced</p> -->
+        </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Spring JMS</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article><article>
+         <img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Apache Kafka</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>RabbitMQ</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article>
+         <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Spring Batch</h3>
+              <!-- !-- <p>Experienced</p> -- -->
+            </div></article>
+         <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Spring Data Mongo</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article></div></div><br>
+         <div class="details-container"><h2 class="skills-sub-title">Course Work Subjects</h2><div class="article-container"><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Data Structures and Algorithms</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Operating Systems</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article>
+         <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Computer Networks</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article><article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Object Oriented Programming</h3>
+              <!-- <p>Experienced</p> -->
+            </div>
+          </article>
+          <article>
+         <img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Design Analysis and Algorithms</h3>
+              <!-- <p>Experienced</p> -->
+            </div>
+          </article>
+          <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Database Management Systems</h3>
+              <!-- <p>Experienced</p> -->
+            </div>
+          </article>
+         <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Software Project Management</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article>
+         <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            />
+         <div class="single-skill"><h3>Distributed Systems</h3>
+          <!-- <p>Experienced</p> -->
+        </div>
+      </article> 
+         <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>System Design</h3>
+              <!-- <p>Experienced</p> -->
+            </div>
+          </article> 
+         <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            />
+         <div class="single-skill"><h3>Systems Architecture</h3>
+          <!-- <p>Experienced</p> -->
+        </div>
+      </article> 
+         <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Object Oriented Design Skills</h3>
+              <!-- !-- <p>Experienced</p> -> -->
+            </div>
+          </article>
+         <article><img
+              src="./assets/checkmark.png"
+              alt="checkmark icon"
+              class="icon"
+            /><div class="single-skill"><h3>Software Development</h3>
+              <!-- <p>Experienced</p> -->
+            </div></article></div></div></div></div></section>
+<!-- <section id="manikanta" class="manikanta">
+<iframe src=".idea/17.html" style="width: 100%; height: 100vh; border: none;"></iframe>
+</section> -->
+<!-- <div id="target"></div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(function(){
+    $("#target").load(".idea/17.html");
+});
+</script> -->
+
+
+<!-- education section starts -->
+<section class="education" id="education" style="background-color:rgb(246, 242, 242)">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assets/srgec.jpeg" alt="">
+        </div>
+        <div class="content">
+        <h4 style="color: rgb(1, 3, 20);">Bachelor of Technology in Computer Science
+          (Artificial Intelligence And Data Science)</h4>
+        <p>Seshadri Rao Gudlavalleru Engineering College(SRGEC) <strong>(CGPA - 8.3/10)</strong></p>
+        <h4>2020-2024 | Completed</h4>
+        </div>
+    </div>
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/srigayathrilogo.png" alt="">
+      </div>
+      <div class="content">
+      <h4 style="color: rgb(1, 3, 20);">Higher Secondary Education (XI - XII) | Science</h4>
+      <p>Sri Gayatri Junior College | TSBIE | <strong>(Precentage - 95%)</strong></p>
+      <h4>2018-2020 | Completed</h4>
+      </div>
+  </div>
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/madhurilogo.jpeg" alt="">
+      </div>
+      <div class="content">
+      <h4 >Secondary School Certificate (I - X)  | Science</h4>
+      <p>Madhuri Vidyalaya School | BSEAP | <strong>(CGPA - 8.7/10)</strong></p>
+      <h4>2019-2020 | Completed</h4>
+      </div>
+    </div>
+
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<section class="work" id="work">
+  <div id="particles-js"></div>
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+  <!-- <div id="particles-js"></div> -->
+  <div class="box-container">
+
+    <!-- <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/jigar-sable/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>-->
+   </div>
+
+</div>
+
+</section>
+<!-- work project section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+  <div class="timeline">
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>SmartInternz</h2>
+        </div>
+        <div class="desc">
+            <h3>Machine Learning & Deep Learning Intern</h3>
+            <!-- <p> Implemented a cutting-edge Sentiment Analysis model integrated into the Company’s customer feedback system,resulting in a 30% reduction in negative sentiment Engineered a Machine Learning Model to Accurately classify 100+ images with 95% accuracy , reducing manual review time by 90% and saving 500+ hours per Month</p> -->
+            <p>Jan 2023 - May 2023</p>
+            <a href="assets\Smart Internz Certificate Orginal.pdf" target="_blank"><h3>Certificate</h3></a>
+        </div>
+        <!-- <a style="font-size: large;"href="www.google.com">hi</a> -->
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Brain O Vision</h2>
+        </div>
+        <div class="desc">
+            <h3>Amazon Web Services</h3>
+            <p>May 2022 - June 2022</p>
+            <a href="\assets\AMAZON WEB SERVICES INTERNSHIP CERTIFICATE (1).pdf" target="_blank"><h3>Certificate</h3></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+<!-- experience section ends -->
+<!-- experience section starts -->
+<!-- experience section starts --><section class="experience" id="experience1">
+
+  <h2 class="heading"><i class="fa fa-certificate" aria-hidden="true"></i> Certificates </h2>
+
+  <div class="timeline">
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Wipro Talentnext</h2>
+        </div>
+        <div class="desc">
+            <h3>Course : Java Full-Stack</h3>
+            <!-- <p>May 2022 - June 2022</p> -->
+            <a href="assets\Wipro TalentNext Java Full Stack Certification.pdf" target="_blank"><h3>Certificate</h3></a>
+        </div>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>APSCHE Certificate</h2>
+        </div>
+        <div class="desc">
+            <h3>Course : Data Analytics with Tableau</h3>
+            <!-- <p>May 2022 - June 2022</p> -->
+            <a href="assets\APSCHE Certificate - SmartInternz.pdf" target="_blank"><h3>Certificate</h3></a>
+        </div>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>AWS Academy Graduate</h2>
+        </div>
+        <div class="desc">
+            <h3>Course : AWS Academy Machine Learning Foundations</h3>
+            <!-- <p>May 2022 - June 2022</p> -->
+            <a href="assets\AWS_Academy_Graduate.pdf" target="_blank"><h3>Certificate</h3></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Microsoft Certified</h2>
+        </div>
+        <div class="desc">
+            <h3>Course : Azure AI Fundamentals</h3>
+            <!-- <p>May 2022 - June 2022</p> -->
+            <a target="_blank" href="assets\Microsoft Azure AI Fundamentals.pdf"><h3>Certificate</h3></a>
+        </div>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Microsoft Certified</h2>
+        </div>
+        <div class="desc">
+            <h3>Course : Azure Developer Associate</h3>
+            <!-- <p>May 2022 - June 2022</p> -->
+            <a target="_blank" href="Microsoft Certified Azure Developer Associate (1).pdf"><h3>Certificate</h3></a>
+        </div>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Paper Publication</h2>
+        </div>
+        <div class="desc">
+            <h3 style="font-size: small;">Project Title :SCIHYPO - A DEEP LEARNING FRAMEWORK FOR DATA-DRIVEN SCIENTIFIC HYPOTHESIS GENERATION FROM EXTENSIVE LITERATURE ANALYSIS  </h3>
+            <!-- <p> Implemented a cutting-edge Sentiment Analysis model integrated into the Company’s customer feedback system,resulting in a 30% reduction in negative sentiment Engineered a Machine Learning Model to Accurately classify 100+ images with 95% accuracy , reducing manual review time by 90% and saving 500+ hours per Month</p> -->
+            <!-- <p>Jan 2023 - May 2023</p> -->
+            <a href="assets\167-5.pdf" target="_blank"><h3>Certificate</h3></a>
+            <a href="assets\5440 fin project.pdf" target="_blank"><h3>Project Document</h3></a>
+        </div>
+        <!-- <a style="font-size: large;"href="www.google.com">hi</a> -->
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Paper Publication</h2>
+        </div>
+        <div class="desc">
+            <h3>Project Title : Loan Forecast Using Machine Learning</h3>
+            <!-- <p>May 2022 - June 2022</p> -->
+            <a href="assets\Sonti Narasimha5.pdf" target="_blank"><h3>Certificate</h3></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- experience section ends -->
+<!-- contact section starts -->
+<section id="profile" style="margin: 0; padding: 0; font-size: small; background-color:rgb(223, 218, 218); padding: 20px;">
+  <h2 style="text-align: center; margin-bottom: 20px;">&#128200; Competitive Programming | Coding Profiles</h2>
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div style="flex-basis: 25%; display: flex; justify-content: center;">
+      <a href="https://leetcode.com/20481A5432/" target="_blank">
+        <img src="https://leetcard.jacoblin.cool/20481A5432?theme=light&ext=contest" style="max-width: 100%; max-height: 300px; object-fit: contain;" alt="LeetCode Image"/>
+      </a>
+    </div>
+    <div style="flex-basis: 25%; display: flex; justify-content: center;">
+       <a href="https://codeforces.com/profile/v20481A5432" target="_blank">
+         <img src="https://raw.githubusercontent.com/MogiliManikanta/CodeForces-Status/main/output/light_card.svg" style="max-width: 100%; max-height: 300px; object-fit: contain;" alt="Codeforces Image"/>
+       </a>
+    </div>
+    <div style="flex-basis: 25%; display: flex; justify-content: center;">
+      <a href="https://www.geeksforgeeks.org/user/mogilimanikanta5555/" target="_blank">
+        <img src="final gfg(1).png" style="max-width: 100%; max-height: 300px; object-fit: contain;" alt="Image 1"/>
+      </a>
+    </div>
+    <div style="flex-basis: 25%; display: flex; justify-content: center;">
+       <a href="https://www.codechef.com/users/v20481a5432" target="_blank">
+         <img src="Screenshot 2024-04-29 174324(1)(1).png" style="max-width: 100%; max-height: 300px; object-fit: contain;" alt="Image 2"/>
+       </a>
+    </div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/contact1.png" alt="">
+      </div>
+    <form id="contact-form">
+      
+      <div class="form-group">
+        <div class="field">
+          <input type="Button" name="name">
+          <i class='fas fa-user'>   Mogili Manikanta</i>
+        </div>
+        <div class="field">
+          <input type="button" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'> mogilimanikanta5555@gmail.com</i>
+        </div>
+        <div class="field">
+          <input type="button" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'>9989129395</i>
+        </div>
+        <div class="message">
+        <input type="button" required>
+        <i class="fas fa-comment-dots">Connect with me for any queries</i>
+        </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Manikanta's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills1"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+          <a href="#experience1"><i class="fas fa-chevron-circle-right"></i> Certificates</a>
+          <a href="#profile"><i class="fas fa-chevron-circle-right"></i> Coding Profiles</a>
+
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+91 9989129395</p>
+          <p> <i class="fas fa-envelope"></i>mogilimanikanta5555@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Hyderabad, India-500084</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/mogilimanikanta/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/MogiliManikanta" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a target="_blank" href="https://www.linkedin.com/in/mogilimanikanta/">Mogili Manikanta</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>

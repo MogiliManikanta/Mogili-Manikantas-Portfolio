@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Music-Band-App Website",
+    "desc": "Directed and launched a fully responsive Music website featuring exercise categorization, integrated.",
+    "image": "musicband-app",
+    "category": "mern",
+    "links": {
+      "view": "https://music-band.onrender.com/",
+      "code": "https://github.com/MogiliManikanta/Music-Band/tree/master"
+    }
+  },
+  {
+    "name": "E - Commerce Website",
+    "desc": "We developed and launched a platform boasting a 30% increase in user engagement due to its intuitive UX/UI design and seamless navigation",
+    "image": "E-commerce",
+    "category": "mern",
+    "links": {
+      "view": "https://ecommerce-frontend-lime-nine.vercel.app/",
+      "code": "https://github.com/MogiliManikanta/EcommerceFrontend"
+    }
+  },
+ 
+  {
+    "name": "Story Flow",
+    "desc": "StoryFlow is a secure, responsive blogging platform with customizable layouts, intuitive design, and creativity-focused features for writers and readers.",
+    "image": "News-app",
+    "category": "mern",
+    "links": {
+      "view": "https://appetize.io/app/fc4w2presrtclmimzm7timkjpe?device=pixel4&osVersion=10.0&scale=75&deviceColor=black",
+      "code": "https://github.com/MogiliManikanta/Mobile-News-App"
+    }
+  }
+]
