@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Music-Band-App Website",
+    "desc": "Directed and launched a fully responsive Music website featuring exercise categorization, integrated.",
+    "image": "musicband-app",
+    "category": "mern",
+    "links": {
+      "view": "https://music-band.onrender.com/",
+      "code": "https://github.com/MogiliManikanta/Music-Band/tree/master"
+    }
+  },
+  {
+    "name": "E - Commerce Website",
+    "desc": "We developed and launched a platform boasting a 30% increase in user engagement due to its intuitive UX/UI design and seamless navigation",
+    "image": "E-commerce",
+    "category": "mern",
+    "links": {
+      "view": "https://ecommerce-frontend-lime-nine.vercel.app/",
+      "code": "https://github.com/MogiliManikanta/EcommerceFrontend"
+    }
+  },
+  {
+    "name": "Story Flow",
+    "desc": "StoryFlow is a secure, responsive blogging platform with customizable layouts, intuitive design, and creativity-focused features for writers and readers.",
+    "image": "StoryFlow",
+    "category": "mern",
+    "links": {
+      "view": "https://story-flow-ten.vercel.app/",
+      "code": "https://github.com/MogiliManikanta/StoryFlow"
+    }
+  },
+  {
+    "name": "Employee Management System",
+    "desc": "The Employee Management System streamlines employee data with role-based access, leave management, performance tracking, and secure React-Node-MongoDB integration.",
+    "image": "EMS",
+    "category": "mern",
+    "links": {
+      "view": "https://employee-management-frontend-hazel.vercel.app",
+      "code": "https://github.com/MogiliManikanta/Employee-Management-System"
+    }
+  },
+  {
+    "name": "Crud Operations React & Redux",
+    "desc": "We developed an website we can add and delete and the dit the use details",
+    "image": "CRUD",
+    "category": "mern",
+    "links": {
+      "view": "https://redux-toolkit-crud-eta.vercel.app/",
+      "code": "https://github.com/MogiliManikanta/redux-toolkit-crud"
+    }
+  }
+]
